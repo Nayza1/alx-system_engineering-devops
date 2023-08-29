@@ -1,2 +1,8 @@
-```bash
+``bash
 #!/bin/bash
+
+input="$1"
+output="${input//c/}"
+output="${output//C/}"
+
+echo "$output"
